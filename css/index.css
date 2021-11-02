@@ -1,0 +1,101 @@
+header {
+    background: red;
+}
+
+body{
+    height: 100vh;
+}
+
+.titol {
+    color: whitesmoke;
+    font-family: "Dancing Script", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav {
+    padding: 1em;
+    font-family: "Dancing Script", serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: red;
+}
+
+nav li a {
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav li a:hover {
+    background: black;
+    color: whitesmoke;
+}
+
+.divMaster{
+    margin: 20px;
+    display: table;
+    clear: both;
+    height: 100vh;
+    width: 100%;
+}
+
+.art1 {
+    margin: 20px;
+    background-color: red;
+    float: left;
+    width: 30%;
+    height: 100vh;
+}
+
+.art2 {
+    margin: 20px;
+    background: linear-gradient(red, black);
+    float: left;
+    width: 30%;
+    height: 100vh;
+}
+
+.art3 {
+    margin: 20px;
+    background-color: red;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    height: 100vh;
+}
+
+.titol2 {
+    color: black;
+    font-family: "Dancing Script",serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img:hover {
+    opacity: 50%;
+}
+
+footer {
+    margin-top: 50px;
+    height: 100px;
+    background: red;
+}
+
+.textFooter {
+    color: white;
+    padding-top: 25px;
+    margin: 20px;
+}
